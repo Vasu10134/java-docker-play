@@ -1,0 +1,24 @@
+# Ignore Java class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore the .DS_Store file created by macOS
+.DS_Store
+
+# Ignore Maven directories (if using Maven)
+target/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore VS Code settings and directories
+.vscode/
+
+# Ignore Docker related files (if you don’t want to include Docker images and containers in the repo)
+**/*.tar
+**/*.tar.gz
+
+# Ignore any other build-related files
+build/
